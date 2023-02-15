@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Register here</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Log in information:</legend>
+        <table>
+          <tr>
+            <td><label>Username: </label> <input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label>Password: </label> <input type="password" /></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+    <form>
+      <fieldset>
+        <legend>Personal information:</legend>
+        <table>
+          <tr>
+            <td>
+              <label>Position: </label>
+              <select name="" id="select">
+                <option value="">Engineer</option>
+                <option value="">Developer</option>
+                <option value="">Data Scientist</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label> Gender: </label>
+              <input type="Radio" name="Gender" value="Male" />Male
+              <input type="Radio" name="Gender" value="Female" />Female
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="C1">Contact Preference: </label>
+              <input type="Checkbox" name="email" id="C1" value="E-mail" />
+              <label for="email">E-mail</label>
+              <input type="Checkbox" name="phone" id="C1" value="Phone" />
+              <label for="phone">Phone</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="P"> Picture: </label>
+              <input type="file" id="P" name="filename" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="birthday">Date of Birth:</label>
+              <input type="date" id="birthday" name="birthday" />
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+    <button>Submit</button>
+  </body>
+</html>
